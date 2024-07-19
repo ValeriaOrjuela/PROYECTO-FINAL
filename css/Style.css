@@ -1,0 +1,283 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+IS:wght@100..400&display=swap');
+
+
+
+/*! ------- RESET ------- */
+
+*/{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+}
+
+/*! ------ HEADER ------ */
+header{
+    background-color: #ffc8ddbd ;
+
+}
+
+header h1 {
+    margin:1px;
+    color: #023047;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 3px;
+}
+.navbar {
+    background-color: #ffc8dd !important;
+}
+
+/*! ------ MAIN ------- */
+
+main{
+    background-image: url(../img/PRUEBA\ FONDO\ \(1\).jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no ;
+    background-attachment: fixed;
+    /* PARA QUE SE VEA TODO 70 PX ES LO QUE MIDE MI BARRA DE NAVEGACION */
+    margin-top: 70px;
+
+}
+.index{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+/*? INDEX */
+
+.hero {
+    color: #023047;
+    /* background-color: white; */
+    margin: 1px;
+}
+.hero p {
+
+    text-align: justify;
+    margin: 1px;
+    padding: 3px;
+}
+.hero1{
+    display: grid;
+    grid-template-rows: repeat(3,33.3%) ;
+    margin-top: 10px;
+}
+
+
+.hero1 img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.Medium{
+    display: none;
+}
+.secciones{
+    padding: 1px;
+}
+.secciones div{
+    border: 1px solid #ffafcc;
+    padding: 1px;
+    margin: 1px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.secciones div img{
+    width: 100%;
+    height: 160px;
+
+}
+.secciones div a{
+    text-decoration:none;
+    color: #023047;
+    border: 1px solid #cdb4db ;
+    background-color: #bde0fe;
+    padding: 2px;
+    margin-bottom: 5px;
+    font-size:large;
+    border-radius: 3px;
+    margin: 1px;
+    text-align: center;
+    justify-content: space-between;
+    height: 32px;
+    width: 63.68px; 
+    align-content: center;
+    align-items: center;
+}
+.secciones .info {
+    justify-content: center;
+    
+}
+.secciones .info a {
+    width: 105.66px;
+    
+}
+
+/* ! ----- MEDIA QUERIES ----- */
+
+
+
+
+
+/*? BLOG */
+
+main a {
+    text-decoration:none;
+    color: #023047;
+    border: 1px solid #cdb4db ;
+    background-color: #bde0fe;
+    padding: 2px;
+    margin-bottom: 5px;
+    font-size:large;
+    border-radius: 3px;
+    margin: 1px;
+}
+.primeraseccion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.primeraseccion div{
+    border: 1px solid #cdb4db;
+    justify-content: space-around;
+}
+.primeraseccion div label {
+    font-size: large;
+    color: #023047;
+    text-align: center;
+}
+.primeraseccion div select{
+    margin-bottom: 5px;
+}
+.primeraseccion div img{
+    width: 160px;
+    height: 160px;
+}
+.seccionesblog{
+    border: 1px solid grey;
+}
+.seccionesblog img{
+    width: 50px;
+    height: 50px;
+}
+.seccionComentarios{
+    border: 1px solid #cdb4db;
+}
+.seccionComentarios img{
+    width: 40px;
+    height: 40px;
+}
+.seccionComentarios p{
+    margin: 3px;
+    padding: 1px;
+}
+
+/*? WORKOUTS */
+
+.Videos label{
+    font-size: large;
+    color: #023047;
+    text-align: center;
+}
+
+main iframe{
+    width: 200px;
+    height: 200px;
+}
+.nutricion label{
+    font-size: large;
+    color: #023047;
+    text-align: center;
+}
+div img{
+    width: 550px;
+    height: 550px;
+}
+div p{
+    margin: 2px;
+}
+
+/*? SERVICIOS */
+
+.productos div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productos p{
+    font-size: medium;
+    color: #023047;
+    margin: 2px;
+    font-weight: 900;
+}
+.productos div{
+    border: 1px solid #cdb4db;
+    padding: 3px;
+}
+.productos div div{
+    border: 1px solid #cdb4db;
+}
+.productos div div img{
+    width: 200px;
+    height: 200px;
+    margin: 1px;
+}
+.productos div div a{
+    margin: 2px;
+}
+
+/* INICIO SESION */
+.iniciosesion{
+    border: 1px solid #cdb4db;
+    padding: 5px;
+}
+.iniciosesion form{
+    margin: 5px;
+}
+.iniciosesion a{
+    margin: 2px;
+    text-decoration:dotted;
+    color: #023047;
+    border: none ;
+    background-color:cornsilk;
+    padding: 2px;
+    margin-bottom: 5px;
+    font-size:large;
+    border-radius: 3px;
+    margin: 1px;
+}
+.bienvenida{
+    border: 1px solid #cdb4db;
+    padding: 5px;
+}
+
+
+/*! ------ FOOTER ------ */
+
+footer{
+    background-color: #ffc8dd ;
+}
+footer p{
+    margin: 3px;
+    padding: 1px;
+}
+
+/*! -------- MEDIA QUERIES ------- */
+
+
+
