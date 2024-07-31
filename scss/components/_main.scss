@@ -1,0 +1,264 @@
+.index {
+    background-image: url(../img/FONDO.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no;
+    background-attachment: fixed;
+    /* PARA QUE SE VEA TODO 70 PX ES LO QUE MIDE MI BARRA DE NAVEGACION */
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+
+    .hero {
+        color: #023047;
+        margin: 1px;
+
+        p {
+            text-align: justify;
+            margin: 1px;
+            padding: 3px;
+        }
+
+    }
+
+    .hero1 {
+        display: grid;
+        grid-template-rows: repeat(3, 33.3%);
+        margin-top: 10px;
+
+        div {
+            div {
+                div {
+                    img {
+                        width: 100%;
+                        height: 300px;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+
+    .secciones {
+        padding: 1px;
+
+        div {
+            border: 1px solid #ffafcc;
+            padding: 1px;
+            margin: 1px;
+            align-items: center;
+            justify-content: center;
+
+            a {
+                text-decoration: none;
+                color: #023047;
+                border: 1px solid #cdb4db;
+                background-color: #bde0fe;
+                padding: 2px;
+                margin-bottom: 5px;
+                font-size: large;
+                border-radius: 3px;
+                margin: 1px;
+                text-align: center;
+                justify-content: space-between;
+                height: 32px;
+                width: 63.68px;
+                align-content: center;
+                align-items: center;
+            }
+
+            div {
+                div {
+                    img {
+                        width: 100%;
+                        height: 160px;
+                    }
+                }
+            }
+
+        }
+
+        .info {
+            justify-content: center;
+
+            a {
+                width: 105.66px;
+            }
+
+        }
+    }
+}
+
+main {
+    margin-top: 80px;
+
+    a {
+        text-decoration: none;
+        color: #023047;
+        border: 1px solid #cdb4db;
+        background-color: #bde0fe;
+        padding: 2px;
+        margin-bottom: 5px;
+        font-size: large;
+        border-radius: 3px;
+        margin: 1px;
+    }
+
+    div {
+
+        .primeraseccion {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            div {
+                border: 1px solid #cdb4db;
+                justify-content: space-around;
+
+                label {
+
+                    font-size: large;
+                    color: #023047;
+                    text-align: center;
+                }
+
+                select {
+                    margin-bottom: 5px;
+                }
+
+                img {
+                    width: 160px;
+                    height: 160px;
+                }
+            }
+        }
+
+        .seccionesblog {
+            border: 1px solid grey;
+
+            img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+
+        .seccionComentarios {
+            border: 1px solid #cdb4db;
+
+            img {
+                width: 40px;
+                height: 40px;
+            }
+
+            p {
+                margin: 3px;
+                padding: 1px;
+
+            }
+        }
+    }
+
+    .Videos {
+
+        label {
+            font-size: large;
+            color: #023047;
+            text-align: center;
+        }
+
+
+    }
+
+    iframe {
+        margin-top: 10px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .nutricion {
+        label {
+            font-size: large;
+            color: #023047;
+            text-align: center;
+        }
+
+    }
+
+    div {
+        margin-top: 10px;
+
+        img {
+            width: 550px;
+            height: 550px;
+        }
+
+        p {
+            margin: 2px;
+        }
+
+
+    }
+
+    .productos {
+        p {
+            font-size: medium;
+            color: #023047;
+            margin: 2px;
+            font-weight: 900;
+        }
+
+        div {
+            margin-top: 1px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid #cdb4db;
+            padding: 1px;
+
+            div {
+                border: 1px solid #cdb4db;
+
+                img {
+                    width: 200px;
+                    height: 200px;
+                    margin: 1px;
+                }
+
+                div {
+                    a {
+                        margin: 2px;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .iniciosesion {
+        border: 1px solid #cdb4db;
+        padding: 5px;
+
+        form {
+            margin: 5px;
+        }
+
+        a {
+            margin: 2px;
+            text-decoration: dotted;
+            color: #023047;
+            border: none;
+            background-color: cornsilk;
+            padding: 2px;
+            margin-bottom: 5px;
+            font-size: large;
+            border-radius: 3px;
+            margin: 1px;
+        }
+    }
+
+    .bienvenida {
+        border: 1px solid #cdb4db;
+        padding: 5px;
+    }
+}

@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+IS:wght@100..400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0; }
+
+header .navbar {
+  background-color: #ffc8dd !important; }
+  header .navbar div a h1 {
+    margin: 1px;
+    color: #023047;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 3px; }
+
+.index {
+  background-image: url(../img/FONDO.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no;
+  background-attachment: fixed;
+  /* PARA QUE SE VEA TODO 70 PX ES LO QUE MIDE MI BARRA DE NAVEGACION */
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+  .index .hero {
+    color: #023047;
+    margin: 1px; }
+    .index .hero p {
+      text-align: justify;
+      margin: 1px;
+      padding: 3px; }
+  .index .hero1 {
+    display: grid;
+    grid-template-rows: repeat(3, 33.3%);
+    margin-top: 10px; }
+    .index .hero1 div div div img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover; }
+  .index .secciones {
+    padding: 1px; }
+    .index .secciones div {
+      border: 1px solid #ffafcc;
+      padding: 1px;
+      margin: 1px;
+      align-items: center;
+      justify-content: center; }
+      .index .secciones div a {
+        text-decoration: none;
+        color: #023047;
+        border: 1px solid #cdb4db;
+        background-color: #bde0fe;
+        padding: 2px;
+        margin-bottom: 5px;
+        font-size: large;
+        border-radius: 3px;
+        margin: 1px;
+        text-align: center;
+        justify-content: space-between;
+        height: 32px;
+        width: 63.68px;
+        align-content: center;
+        align-items: center; }
+      .index .secciones div div div img {
+        width: 100%;
+        height: 160px; }
+    .index .secciones .info {
+      justify-content: center; }
+      .index .secciones .info a {
+        width: 105.66px; }
+
+main {
+  margin-top: 80px; }
+  main a {
+    text-decoration: none;
+    color: #023047;
+    border: 1px solid #cdb4db;
+    background-color: #bde0fe;
+    padding: 2px;
+    margin-bottom: 5px;
+    font-size: large;
+    border-radius: 3px;
+    margin: 1px; }
+  main div .primeraseccion {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    main div .primeraseccion div {
+      border: 1px solid #cdb4db;
+      justify-content: space-around; }
+      main div .primeraseccion div label {
+        font-size: large;
+        color: #023047;
+        text-align: center; }
+      main div .primeraseccion div select {
+        margin-bottom: 5px; }
+      main div .primeraseccion div img {
+        width: 160px;
+        height: 160px; }
+  main div .seccionesblog {
+    border: 1px solid grey; }
+    main div .seccionesblog img {
+      width: 50px;
+      height: 50px; }
+  main div .seccionComentarios {
+    border: 1px solid #cdb4db; }
+    main div .seccionComentarios img {
+      width: 40px;
+      height: 40px; }
+    main div .seccionComentarios p {
+      margin: 3px;
+      padding: 1px; }
+  main .Videos label {
+    font-size: large;
+    color: #023047;
+    text-align: center; }
+  main iframe {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px; }
+  main .nutricion label {
+    font-size: large;
+    color: #023047;
+    text-align: center; }
+  main div {
+    margin-top: 10px; }
+    main div img {
+      width: 550px;
+      height: 550px; }
+    main div p {
+      margin: 2px; }
+  main .productos p {
+    font-size: medium;
+    color: #023047;
+    margin: 2px;
+    font-weight: 900; }
+  main .productos div {
+    margin-top: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #cdb4db;
+    padding: 1px; }
+    main .productos div div {
+      border: 1px solid #cdb4db; }
+      main .productos div div img {
+        width: 200px;
+        height: 200px;
+        margin: 1px; }
+      main .productos div div div a {
+        margin: 2px; }
+  main .iniciosesion {
+    border: 1px solid #cdb4db;
+    padding: 5px; }
+    main .iniciosesion form {
+      margin: 5px; }
+    main .iniciosesion a {
+      margin: 2px;
+      text-decoration: dotted;
+      color: #023047;
+      border: none;
+      background-color: cornsilk;
+      padding: 2px;
+      margin-bottom: 5px;
+      font-size: large;
+      border-radius: 3px;
+      margin: 1px; }
+  main .bienvenida {
+    border: 1px solid #cdb4db;
+    padding: 5px; }
+
+footer {
+  background-color: #ffc8dd; }
+  footer div div div p {
+    margin: 3px;
+    padding: 1px; }
