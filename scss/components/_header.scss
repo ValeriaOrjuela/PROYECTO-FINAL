@@ -2,13 +2,13 @@ header {
 
     .navbar {
 
-        background-color: #ffc8dd !important;
+        background-color: $color-principal !important;
 
         div {
             a {
                 h1 {
                     margin: 1px;
-                    color: #023047;
+                    color: $letra;
                     text-align: center;
                     font-weight: 700;
                     font-size: 30px;

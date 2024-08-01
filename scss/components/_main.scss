@@ -11,7 +11,7 @@
 
 
     .hero {
-        color: #023047;
+        color: $letra;
         margin: 1px;
 
         p {
@@ -72,9 +72,9 @@ main {
 
     a {
         text-decoration: none;
-        color: #023047;
+        color: $letra;
         border: 1px solid #cdb4db;
-        background-color: #bde0fe;
+        background-color: $botones;
         padding: 2px;
         margin-bottom: 5px;
         font-size: large;
@@ -95,7 +95,7 @@ main {
                 label {
 
                     font-size: large;
-                    color: #023047;
+                    color: $letra;
                     text-align: center;
                 }
 
@@ -140,7 +140,7 @@ main {
 
         label {
             font-size: large;
-            color: #023047;
+            color: $letra;
             text-align: center;
         }
 
@@ -160,7 +160,7 @@ main {
     .nutricion {
         label {
             font-size: large;
-            color: #023047;
+            color: $letra;
             text-align: center;
         }
 
@@ -191,7 +191,7 @@ main {
     .productos {
         p {
             font-size: medium;
-            color: #023047;
+            color: $letra;
             margin: 2px;
             font-weight: 900;
         }
@@ -234,7 +234,7 @@ main {
         a {
             margin: 2px;
             text-decoration: dotted;
-            color: #023047;
+            color: $letra;
             border: none;
             background-color: cornsilk;
             padding: 2px;
