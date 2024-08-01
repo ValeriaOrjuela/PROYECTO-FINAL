@@ -236,14 +236,21 @@ footer {
         padding: 3px; }
     .index .hero1 {
       display: grid;
-      grid-template-rows: repeat(3, 33.3%);
-      margin-top: 10px; }
+      display: flex;
+      flex-direction: column; }
       .index .hero1 div div div img {
         width: 100%;
         height: 300px;
         object-fit: cover; }
+      .index .hero1 .parrafos .descripcion {
+        margin-top: 1px; }
+      .index .hero1 .parrafos .descripcion2 {
+        display: none; }
     .index .secciones {
-      justify-content: center; }
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center; }
       .index .secciones div {
         align-items: center; }
         .index .secciones div .piepagina {
@@ -253,7 +260,7 @@ footer {
       .index .secciones div {
         width: 100%; }
         .index .secciones div div div img {
-          width: 90%;
+          width: 50%;
           height: 160px; }
         .index .secciones div div div div p {
           display: none; } }
