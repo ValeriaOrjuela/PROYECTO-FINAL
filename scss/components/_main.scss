@@ -86,9 +86,7 @@ main {
 
         .primeraseccion {
             margin-top: 10px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
+            @extend %flex;
 
             div {
                 border: 1px solid #cdb4db;
@@ -148,12 +146,16 @@ main {
 
 
     }
+    .displayvideos{
+        @extend %flex;
 
-    iframe {
-        margin-top: 10px;
-        width: 200px;
-        height: 200px;
+        iframe {
+            margin-top: 10px;
+            width: 200px;
+            height: 200px;
+        }
     }
+
 
     .nutricion {
         label {
@@ -164,17 +166,24 @@ main {
 
     }
 
-    div {
+    .fotosnutricion {
         margin-top: 10px;
+        @extend %flex;
+        
+        div {
+            width: 48%;
+            display: flex;
+            flex-direction: column;
+            img {
+                width: 100%;
+                height: 550px;
+            }
 
-        img {
-            width: 550px;
-            height: 550px;
+            p {
+                margin: 2px;
+            }
         }
 
-        p {
-            margin: 2px;
-        }
 
 
     }

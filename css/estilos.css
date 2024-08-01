@@ -11,6 +11,11 @@ body {
   font-style: normal;
   margin: 0; }
 
+main div .primeraseccion, main .displayvideos, main .fotosnutricion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
 header .navbar {
   background-color: #ffc8dd !important; }
   header .navbar div a h1 {
@@ -74,10 +79,7 @@ main {
     border-radius: 3px;
     margin: 1px; }
   main div .primeraseccion {
-    margin-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; }
+    margin-top: 10px; }
     main div .primeraseccion div {
       border: 1px solid #cdb4db;
       justify-content: space-around; }
@@ -107,7 +109,7 @@ main {
     font-size: large;
     color: #023047;
     text-align: center; }
-  main iframe {
+  main .displayvideos iframe {
     margin-top: 10px;
     width: 200px;
     height: 200px; }
@@ -115,13 +117,17 @@ main {
     font-size: large;
     color: #023047;
     text-align: center; }
-  main div {
+  main .fotosnutricion {
     margin-top: 10px; }
-    main div img {
-      width: 550px;
-      height: 550px; }
-    main div p {
-      margin: 2px; }
+    main .fotosnutricion div {
+      width: 48%;
+      display: flex;
+      flex-direction: column; }
+      main .fotosnutricion div img {
+        width: 100%;
+        height: 550px; }
+      main .fotosnutricion div p {
+        margin: 2px; }
   main .productos p {
     font-size: medium;
     color: #023047;

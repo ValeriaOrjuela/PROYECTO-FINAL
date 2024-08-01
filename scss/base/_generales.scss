@@ -27,9 +27,10 @@ $mapa: (
 //!EXTENDS
 
 %flex{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
 }
 
 //! MIXINS
@@ -38,5 +39,5 @@ $mapa: (
     display: $flex;
     justify-content: $justify;
     align-items: $align;
-}
+} 
 
