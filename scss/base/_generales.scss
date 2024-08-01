@@ -13,3 +13,30 @@ body{
     font-style: normal;
     margin: 0;
 }
+$color-principal:#FFC6D9;
+$color-secundario:#6b3e26;
+$color-terciario:#c2f2d0;
+
+$paleta-colores: #FFC6D9, #6b3e26 , #c2f2d0;
+
+$mapa: (
+    bg-color: grey,
+    borderl: 5px red
+);
+
+//!EXTENDS
+
+%flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//! MIXINS
+
+@mixin flex($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
