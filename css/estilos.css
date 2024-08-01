@@ -173,3 +173,87 @@ footer {
   footer div div div p {
     margin: 3px;
     padding: 1px; }
+
+@media screen and (max-width: 849px) {
+  .index {
+    background-image: url(../img/FONDO.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no;
+    background-attachment: fixed;
+    /* PARA QUE SE VEA TODO 70 PX ES LO QUE MIDE MI BARRA DE NAVEGACION */
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
+    .index .hero {
+      color: #023047;
+      margin: 1px; }
+      .index .hero p {
+        text-align: justify;
+        margin: 1px;
+        padding: 3px; }
+    .index .hero1 {
+      display: grid;
+      grid-template-rows: repeat(3, 33.3%);
+      margin-top: 10px; }
+      .index .hero1 div div div img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover; }
+    .index .secciones {
+      justify-content: center; }
+      .index .secciones div {
+        align-items: center; }
+        .index .secciones div a {
+          align-items: center; }
+        .index .secciones div p {
+          display: none; }
+      .index .secciones div {
+        width: 100%; }
+        .index .secciones div div div img {
+          width: 90%;
+          height: 160px; }
+        .index .secciones div div div div p {
+          display: none; } }
+
+@media screen and (max-width: 702px) {
+  .index {
+    background-image: url(../img/FONDO.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no;
+    background-attachment: fixed;
+    /* PARA QUE SE VEA TODO 70 PX ES LO QUE MIDE MI BARRA DE NAVEGACION */
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap; }
+    .index .hero {
+      color: #023047;
+      margin: 1px; }
+      .index .hero p {
+        text-align: justify;
+        margin: 1px;
+        padding: 3px; }
+    .index .hero1 {
+      display: grid;
+      grid-template-rows: repeat(3, 33.3%);
+      margin-top: 10px; }
+      .index .hero1 div div div img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover; }
+    .index .secciones {
+      justify-content: center; }
+      .index .secciones div {
+        align-items: center; }
+        .index .secciones div .piepagina {
+          display: none; }
+        .index .secciones div p {
+          display: none; }
+      .index .secciones div {
+        width: 100%; }
+        .index .secciones div div div img {
+          width: 90%;
+          height: 160px; }
+        .index .secciones div div div div p {
+          display: none; } }
