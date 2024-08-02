@@ -35,7 +35,7 @@ $mapa: (
 
 //! MIXINS
 
-@mixin bordes($borde, $tamaño, $color){
-    border: $borde $tamaño $color;
+@mixin bordes($borde, $tamano, $colore){
+    border: $borde $tamano $colore;
 } 
 

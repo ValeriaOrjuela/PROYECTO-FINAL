@@ -73,7 +73,7 @@ main {
     a {
         text-decoration: none;
         color: $letra;
-        border: 1px solid #cdb4db;
+        @include bordes(1px, solid, #cdb4db);
         background-color: $botones;
         padding: 2px;
         margin-bottom: 5px;
@@ -89,7 +89,8 @@ main {
             @extend %flex;
 
             div {
-                border: 1px solid #cdb4db;
+                
+                @include bordes(1px, solid, #cdb4db);
                 justify-content: space-around;
 
                 label {
@@ -112,7 +113,8 @@ main {
     }
 
     .seccionesblog {
-        border: 1px solid grey;
+        
+        @include bordes(1px, solid, white);
 
         img {
             width: 50px;
