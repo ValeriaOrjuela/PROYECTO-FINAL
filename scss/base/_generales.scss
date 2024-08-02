@@ -35,9 +35,7 @@ $mapa: (
 
 //! MIXINS
 
-@mixin flex($flex, $justify, $align){
-    display: $flex;
-    justify-content: $justify;
-    align-items: $align;
+@mixin bordes($borde, $tamaño, $color){
+    border: $borde $tamaño $color;
 } 
 
