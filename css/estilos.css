@@ -63,6 +63,8 @@ header .navbar {
       align-items: center; }
       .index .secciones div a {
         align-items: center; }
+        .index .secciones div a:hover {
+          background-color: rgba(242, 216, 244, 0.719); }
       .index .secciones div div div img {
         width: 100%;
         height: 160px; }
@@ -84,6 +86,8 @@ main {
     font-size: large;
     border-radius: 3px;
     margin: 1px; }
+    main a:hover {
+      background-color: rgba(242, 216, 244, 0.719); }
   main div .primeraseccion {
     margin-top: 10px; }
     main div .primeraseccion div {
@@ -143,11 +147,9 @@ main {
     margin-top: 1px;
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid #cdb4db;
     padding: 1px;
     justify-content: space-around; }
     main .productos div div {
-      border: 1px solid #cdb4db;
       align-items: center; }
       main .productos div div img {
         width: 200px;
@@ -227,13 +229,21 @@ footer {
           display: none; }
       .index .secciones div {
         width: 100%; }
-        .index .secciones div div div {
-          justify-items: center; }
-          .index .secciones div div div img {
-            width: 90%;
-            height: 160px; }
-          .index .secciones div div div div p {
-            display: none; } }
+        .index .secciones div div {
+          align-items: flex-end; }
+          .index .secciones div div div {
+            justify-items: center; }
+            .index .secciones div div div img {
+              width: 100%;
+              height: 160px; }
+            .index .secciones div div div div {
+              display: flex;
+              justify-content: center;
+              align-items: center; }
+              .index .secciones div div div div h5 {
+                width: 80px; }
+              .index .secciones div div div div p {
+                display: none; } }
 
 @media screen and (max-width: 702px) {
   .index {
@@ -278,11 +288,14 @@ footer {
           display: none; }
       .index .secciones div {
         width: 100%; }
-        .index .secciones div div div img {
-          width: 50%;
-          height: 160px; }
-        .index .secciones div div div div p {
-          display: none; } }
+        .index .secciones div div div {
+          display: flex;
+          justify-content: center; }
+          .index .secciones div div div img {
+            width: 50%;
+            height: 160px; }
+          .index .secciones div div div div p {
+            display: none; } }
 
 @media screen and (max-width: 573px) {
   .productos p {
@@ -349,3 +362,69 @@ footer {
           margin: 2px;
           width: 62.65px;
           height: 37.33px; } }
+
+@media screen and (max-width: 500px) {
+  footer {
+    background-color: #ffc8dd; }
+    footer div div div p {
+      display: none;
+      margin: 3px;
+      padding: 1px; } }
+
+@media screen and (max-width: 261px) {
+  .index {
+    background-image: url(../img/FONDO.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no;
+    background-attachment: fixed;
+    /* PARA QUE SE VEA TODO 70 PX ES LO QUE MIDE MI BARRA DE NAVEGACION */
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap; }
+    .index .hero {
+      color: #023047;
+      margin: 1px; }
+      .index .hero p {
+        text-align: justify;
+        margin: 1px;
+        padding: 3px; }
+    .index .hero1 {
+      display: grid;
+      display: flex;
+      flex-direction: column; }
+      .index .hero1 div div div img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover; }
+      .index .hero1 .parrafos .descripcion {
+        margin-top: 1px; }
+      .index .hero1 .parrafos .descripcion2 {
+        display: none; }
+    .index .secciones {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center; }
+      .index .secciones div {
+        align-items: center; }
+        .index .secciones div .piepagina {
+          display: none; }
+        .index .secciones div p {
+          display: none; }
+      .index .secciones div {
+        width: 100%; }
+        .index .secciones div div div {
+          display: flex;
+          justify-content: center; }
+          .index .secciones div div div img {
+            width: 100%;
+            height: 160px; }
+          .index .secciones div div div div p {
+            display: none; }
+  footer {
+    background-color: #ffc8dd; }
+    footer div div div p {
+      display: none;
+      margin: 3px;
+      padding: 1px; } }
