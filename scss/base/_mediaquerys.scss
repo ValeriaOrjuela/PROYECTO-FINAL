@@ -39,7 +39,15 @@
                     }
                 }
             }
+
+            .parrafos {
+                .descripcion {
+                    margin-top: 20px;
+                }
+            }
         }
+
+
 
         .secciones {
             justify-content: center;
@@ -59,9 +67,15 @@
             div {
                 width: 100%;
 
+
                 div {
+
+
                     div {
+                        justify-items: center;
+
                         img {
+
                             width: 90%;
                             height: 160px;
                         }
@@ -172,5 +186,117 @@
             }
         }
     }
+
+}
+
+@media screen and (max-width: 573px) {
+    .productos {
+        p {
+            font-size: medium;
+            color: $letra;
+            margin: 2px;
+            font-weight: 900;
+            display: none;
+        }
+
+        div {
+            margin-top: 1px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid #cdb4db;
+            padding: 1px;
+            justify-content: space-around;
+
+
+            .card {
+                border: 1px solid #cdb4db;
+                align-items: center;
+                width: 229px !important;
+
+                img {
+                    width: 200px;
+                    height: 200px;
+                    margin: 1px;
+                }
+
+                .servi {
+
+                    .tarjetab {
+                        margin: 2px;
+                        width: 44.69px;
+                        height: 32.33px;
+                    }
+
+                }
+
+                .servi {
+                    flex-direction: column;
+
+                    .tarjetas {
+                        margin: 2px;
+                        width: 62.65px;
+                        height: 37.33px;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+@media screen and (max-width: 466px) {
+    .productos {
+        p {
+            font-size: medium;
+            color: $letra;
+            margin: 2px;
+            font-weight: 900;
+            display: none;
+        }
+
+        div {
+            margin-top: 1px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid #cdb4db;
+            padding: 1px;
+            justify-content: space-around;
+
+
+            .card {
+                border: 1px solid #cdb4db;
+                align-items: center;
+                width: 400px !important;
+
+                img {
+                    width: 200px;
+                    height: 200px;
+                    margin: 1px;
+                }
+
+                .servi {
+
+                    .tarjetab {
+                        margin: 2px;
+                        width: 44.69px;
+                        height: 32.33px;
+                    }
+
+                }
+
+                .servi {
+                    flex-direction: column;
+
+                    .tarjetas {
+                        margin: 2px;
+                        width: 62.65px;
+                        height: 37.33px;
+                    }
+                }
+            }
+        }
+    }
+
 
 }

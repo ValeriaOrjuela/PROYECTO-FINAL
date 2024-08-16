@@ -30,16 +30,23 @@
         div {
             div {
                 div {
+                    margin: 2px;
                     img {
                         width: 100%;
                         height: 300px;
                         object-fit: cover;
+                        margin: 2px;
                     }
                 }
             }
         }
     }
-
+    .parrafos{
+        .descripcion{
+            margin: 10px;
+            margin-top: 50px;
+        }
+    }
     .secciones {
         justify-content: center;
 
@@ -89,7 +96,7 @@ main {
             @extend %flex;
 
             div {
-                
+
                 @include bordes(1px, solid, #cdb4db);
                 justify-content: space-around;
 
@@ -113,7 +120,7 @@ main {
     }
 
     .seccionesblog {
-        
+
         @include bordes(1px, solid, white);
 
         img {
@@ -148,7 +155,8 @@ main {
 
 
     }
-    .displayvideos{
+
+    .displayvideos {
         @extend %flex;
 
         iframe {
@@ -171,11 +179,12 @@ main {
     .fotosnutricion {
         margin-top: 10px;
         @extend %flex;
-        
+
         div {
             width: 48%;
             display: flex;
             flex-direction: column;
+
             img {
                 width: 100%;
                 height: 550px;
@@ -208,6 +217,7 @@ main {
 
             div {
                 border: 1px solid #cdb4db;
+                align-items: center;
 
                 img {
                     width: 200px;
@@ -216,10 +226,21 @@ main {
                 }
 
                 div {
-                    a {
+
+                    .tarjetab {
                         margin: 2px;
+                        width: 44.69px;
+                        height: 32.33px;
                     }
 
+                }
+                .servi {
+                    flex-direction: column;
+                    .tarjetas{
+                        margin: 2px;
+                        width: 62.65px;
+                        height: 37.33px;
+                    }
                 }
             }
         }
